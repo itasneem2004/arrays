@@ -52,6 +52,57 @@
 
 // pop(): Removes and returns the last element from an array.
 // const colors = ["magenta","cyan","purple"];
-// const lastcolor = colors.pop("purple");
+// const lastcolor = colors.pop();
 // console.log(lastcolor);
+// console.log(colors);
 
+// unshift(): Adds one or more elements to the beginning of an array and returns the new length of the array.
+// const names = ["mir","aftab"];
+// names.unshift("tasneem","zehra");
+// console.log(names);
+
+// shift(): Removes and returns the first element from an array.
+// const fruits = ["strawberry", "kiwi", "pineapple"];
+// const firstfruits = fruits.shift();
+// console.log(firstfruits);
+// console.log(fruits);
+
+// concat(): Combines two or more arrays and returns a new array
+// const names = ["shahid", "mir"];
+// const age = ["16", "22"];
+// const combined = names.concat(age);
+// console.log(combined);
+
+// slice(): Returns a shallow copy of a portion of an array into a new array.
+// const colors = ["red", "blue", "green", "yellow"];
+// const slicedcolors = colors.slice(1,3);
+// console.log(slicedcolors);
+
+// splice(): Adds or removes elements from an array at a specified index.
+// const fruits = ["apple", "banana", "cherry"];
+// fruits.splice(2, 2, "grape"); // 
+// console.log(fruits); // 
+
+// indexOf(): Returns the first index at which a given element is found in the array, or -1 if it's not found.
+// const fruits = ["apple", "banana", "cherry"];
+// const index = fruits.indexOf("banana");
+// console.log(index); 
+
+// includes(): Checks whether an element exists in the array and returns true or false.
+// const fruits = ["apple", "banana", "cherry"];
+// const hasCherry = fruits.includes("cherry");
+// console.log(hasCherry); //
+
+// Iterating Through an Array:
+// You can loop through the elements of an array using for loops, forEach(), for...of, or other looping constructs.
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+
+// fruits.forEach((i) => {
+//   console.log(i);
+// });
+
+// for (const fruit of fruits) {
+//   console.log(fruit);
+// }
